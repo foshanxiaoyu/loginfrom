@@ -12,9 +12,9 @@ app.get('/api/sayhi',async(req,res) => {
 
 
 
-app.post('/api/registr',async(req,res) => {
+app.post('/api/register',async(req,res) => {
     console.log(req.body);
-    res.send('look an regsiter');
+    res.send('look an regsiter listen band');
 
 });
 
